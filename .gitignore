@@ -1,0 +1,28 @@
+# Dependencies
+node_modules/
+.bun/
+
+# Build outputs
+dist/
+build/
+.svelte-kit/
+.output/
+
+# SQLite temporary journal files
+*.db-journal
+*.db-shm
+*.db-wal
+
+# OS and Editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Environment variables
+.env
+.env.*
+!.env.example
+
+# Logs
+*.log
