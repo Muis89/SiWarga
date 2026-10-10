@@ -8,6 +8,7 @@
     "dev": "concurrently -n \"backend,frontend\" -c \"magenta,cyan\" \"bun run dev:backend\" \"bun run dev:frontend\"",
     "dev:backend": "bun --cwd packages/backend dev",
     "dev:frontend": "bun --cwd packages/frontend dev",
+    "db:studio": "bun --cwd packages/backend db:studio",
     "build:backend": "bun --cwd packages/backend build",
     "build:frontend": "bun --cwd packages/frontend build",
     "build": "bun run build:backend && bun run build:frontend"
